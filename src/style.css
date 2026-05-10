@@ -1,0 +1,10 @@
+/* src/style.css */
+@import "tailwindcss";
+
+/* 【核心修复】：告诉 Tailwind v4，遇到 .dark 类名时激活 dark: 相关的样式 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 幻灯片基础样式：锁定视口 */
+#app {
+  @apply h-screen w-screen overflow-hidden;
+}
