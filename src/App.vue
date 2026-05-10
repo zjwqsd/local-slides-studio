@@ -640,13 +640,13 @@ onUnmounted(() => {
       </transition>
 
       <!-- 当前文件名 -->
-      <div
+      <!-- <div
         v-if="slides.length > 0"
         class="fixed top-5 z-50 bg-white/80 text-gray-500 text-xs px-3 py-1 rounded-full shadow-sm backdrop-blur"
         :class="showSidebar ? 'left-[344px]' : 'left-6'"
       >
         {{ currentFileName }}
-      </div>
+      </div> -->
 
       <!-- 页码 -->
       <div
